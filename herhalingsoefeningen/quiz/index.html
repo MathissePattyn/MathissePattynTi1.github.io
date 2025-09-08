@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Quiz</title>
+</head>
+<body>
+
+<h1>Quiz</h1>
+
+<div class="voorblad">
+ <label>Voornaam: </label>
+ <input type="text" id="txtVoornaam" required="required" placeholder="voornaam" autofocus="autofocus">
+ <input type="text" id="txtFamilienaam" required="required" placeholder="familienaam">
+ <input type="button" value="Submit" id="btnVoorblad">
+</div>
+
+<form class="quiz hidden">
+
+ <div id="vraag1" class="vragen">
+  <fieldset>
+   <h3>STEL HIER DE VRAAG</h3>
+   <input type="radio" name="vraag1" value="0">A
+   <input type="radio" name="vraag1" value="0">B
+   <input type="radio" name="vraag1" value="1">C
+   <input type="radio" name="vraag1" value="0">D
+  </fieldset>
+ </div>
+
+ <div id="vraag2" class="hidden vragen">
+  <fieldset>
+   <h3>STEL HIER DE VRAAG</h3>
+   <input type="radio" name="vraag2" value="0">A
+   <input type="radio" name="vraag2" value="0">B
+   <input type="radio" name="vraag2" value="1">C
+   <input type="radio" name="vraag2" value="0">D
+   </select>
+  </fieldset>
+ </div>
+
+ </br>
+ <input type="button" id="btnSubmit" value="Dien in">
+</form>
+
+<script type="text/javascript" charset="utf-8" src="scripts/code.js"></script>
+</body>
+</html>
